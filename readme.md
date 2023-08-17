@@ -17,6 +17,10 @@ docker run --name pgadmin-coddicted -p 5051:80 -e "PGADMIN_DEFAULT_EMAIL=payam@c
 docker inspect postgresql -f "{{json .NetworkSettings.Networks }}"
 ```
 
+![table](screenshots/table_tasks.png)
+
+![demo](screenshots/demo.png)
+
 #### References
 - https://coinsbench.com/chat-with-your-databases-using-langchain-bb7d31ed2e76
 - https://www.baeldung.com/ops/postgresql-docker-setup
